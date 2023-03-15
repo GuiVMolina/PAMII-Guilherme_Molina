@@ -2,6 +2,8 @@ var adição
 var subtracao
 var multiplicação
 var divisão
+var potencia
+var raiz
 
 function funcaoAdição (a, b) {
     return a + b
@@ -19,7 +21,17 @@ function funcaoDivisao(a, b) {
     return a / b
 }
 
-console.log(funcaoAdição(10, 5))
-console.log(funcaoSubtracao(55, 40))
-console.log(funcaoMultiplicacao(5, 3))
-console.log(funcaoDivisao(90, 6))
+function funcaoPotencia(a, b) {
+    return Math.pow(a, b)
+}
+
+function funcaoRaiz(a, b) {
+    return Math.sqrt(a)
+}
+
+console.log(funcaoAdição(20, 5))
+console.log(funcaoSubtracao(75, 50))
+console.log(funcaoMultiplicacao(5, 5))
+console.log(funcaoDivisao(100, 4))
+console.log(funcaoPotencia(5, 2))
+console.log(funcaoRaiz(625))
