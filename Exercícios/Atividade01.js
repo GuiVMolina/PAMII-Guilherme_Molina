@@ -25,7 +25,7 @@ function funcaoPotencia(a, b) {
     return Math.pow(a, b)
 }
 
-function funcaoRaiz(a, b) {
+function funcaoRaiz(a) {
     return Math.sqrt(a)
 }
 
